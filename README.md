@@ -1,7 +1,7 @@
-# Bookmark Manager
+# Personal Bookmark Manager
 
 Hi CodemyX team!
-Here’s my submission for the task — a Bookmark Manager web application that helps users organize and manage their bookmarks in a clean, intuitive interface.
+Here’s my submission for the task — a Personal Bookmark Manager web application that helps users organize and manage their bookmarks in a clean, intuitive interface.
 
 ## Features
 - **View Bookmarks**: See all your saved bookmarks in a clean list or grid format.
@@ -16,12 +16,12 @@ Here’s my submission for the task — a Bookmark Manager web application that 
 - **Light/Dark Mode**: Switch between light and dark themes for a comfortable viewing experience.
 
 ## Technologies Used
-- **Next.js**: A React framework for server-side rendering and static site generation.
-- **TypeScript**: A strongly typed programming language that enhances JavaScript.
-- **Tailwind CSS**: A utility-first CSS framework for building custom user interfaces.
+- Next.js**: A React framework for server-side rendering and static site generation.
+- TypeScript**: A strongly typed programming language that enhances JavaScript.
+- Tailwind CSS**: A utility-first CSS framework for building custom user interfaces.
 
 ## How to Run the Project Locally
-- Ensure you have **Node.js (v14.x or higher)** installed.
+- Ensure you have Node.js (v14.x or higher) installed.
 - Clone the repository:
    git clone https://github.com/034-BikashKumarYadav/bookmark-manager.git
 - Navigate to the project directory:
