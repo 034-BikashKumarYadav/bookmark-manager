@@ -16,9 +16,9 @@ Here’s my submission for the task — a Personal Bookmark Manager web applicat
 - **Light/Dark Mode**: Switch between light and dark themes for a comfortable viewing experience.
 
 ## Technologies Used
-- Next.js**: A React framework for server-side rendering and static site generation.
-- TypeScript**: A strongly typed programming language that enhances JavaScript.
-- Tailwind CSS**: A utility-first CSS framework for building custom user interfaces.
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **TypeScript**: A strongly typed programming language that enhances JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for building custom user interfaces.
 
 ## How to Run the Project Locally
 - Ensure you have Node.js (v14.x or higher) installed.
