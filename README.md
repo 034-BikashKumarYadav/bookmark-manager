@@ -1,78 +1,46 @@
-# Personal Bookmark Manager
+# Bookmark Manager
 
-Welcome to the Personal Bookmark Manager! This application allows you to manage your bookmarks efficiently and enjoyably. Below are the details regarding setup, features, and usage.
+Hi CodemyX team!
+Here’s my submission for the task — a Bookmark Manager web application that helps users organize and manage their bookmarks in a clean, intuitive interface.
 
 ## Features
-
 - **View Bookmarks**: See all your saved bookmarks in a clean list or grid format.
 - **Add Bookmarks**: Easily add new bookmarks with a title, URL, and category.
+- **Edit Bookmarks**: Update existing bookmarks with new details.
 - **Remove Bookmarks**: Delete bookmarks you no longer need.
 - **Filter by Category**: Filter bookmarks based on categories or tags.
+- **Search Bookmarks**: Search for bookmarks by title.
+- **Sort Bookmarks**: Sort bookmarks by date or alphabetically.
+- **Custom Categories**: Add your own categories for better organization.
+- **Bookmark Validation**: Ensure URLs are valid before saving.
 - **Light/Dark Mode**: Switch between light and dark themes for a comfortable viewing experience.
 
 ## Technologies Used
-
 - **Next.js**: A React framework for server-side rendering and static site generation.
 - **TypeScript**: A strongly typed programming language that enhances JavaScript.
 - **Tailwind CSS**: A utility-first CSS framework for building custom user interfaces.
 
-## Setup Instructions
-
-1. Ensure you have Node.js installed (version 14.x or higher).
-2. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/bookmark-manager.git
-   ```
-3. Navigate to the project directory:
-   ```
+## How to Run the Project Locally
+- Ensure you have **Node.js (v14.x or higher)** installed.
+- Clone the repository:
+   git clone https://github.com/034-BikashKumarYadav/bookmark-manager.git
+- Navigate to the project directory:
    cd bookmark-manager
-   ```
-4. Install the dependencies:
-   ```
+- Install dependencies:
    npm install
-   ```
-5. Start the development server:
-   ```
+- Start the development server:
    npm run dev
-   ```
-6. Open your browser and go to [http://localhost:3000](http://localhost:3000) to see the application in action.
+- Open your browser and visit:
+   http://localhost:3000
 
-## File Structure
+## Challenges I Faced
+- Implementing the edit functionality while maintaining state consistency.
+- Ensuring URL validation works seamlessly across different browsers.
+- Designing a responsive and user-friendly UI with Tailwind CSS.
 
-```
-bookmark-manager
-├── public
-│   └── favicon.ico
-├── src
-│   ├── components
-│   │   ├── BookmarkFilter.tsx
-│   │   ├── BookmarkForm.tsx
-│   │   ├── BookmarkList.tsx
-│   │   └── ThemeToggle.tsx
-│   ├── pages
-│   │   └── index.tsx
-│   ├── styles
-│   │   └── globals.css
-│   ├── types
-│   │   └── Bookmark.ts
-│   └── utils
-│       └── localStorage.ts
-├── .eslintrc.json
-├── next.config.js
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── tsconfig.json
-└── README.md
-```
+## What I Learned
+- How to use React hooks like useState and useEffect for state management.
+- How to implement custom features like sorting, filtering, and search.
+- How to use Tailwind CSS for responsive and clean UI design.
+- How to persist data using localStorage.
 
-## Usage
-
-- To add a bookmark, fill out the form with the title, URL, and category, then submit.
-- Use the filter component to view bookmarks by category.
-- Click on a bookmark title to open the URL in a new tab.
-- Toggle between light and dark mode using the theme toggle button.
-
-## License
-
-This project is open-source and available under the MIT License. Feel free to contribute and make it better!
